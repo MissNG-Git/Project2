@@ -1,5 +1,12 @@
 <div class="indexRow">
   {{!-- <div class="col-auto"> --}}
+
+    {{#if message}}
+    <div class="alert {{messageClass}}" role="alert">
+      {{message}}
+    </div>
+    {{/if}}
+
     <form id="create-form">
       <div class="create-form">
         <label for="first-name">First Name</label>
