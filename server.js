@@ -16,6 +16,7 @@ let connection;
 if (process.env.JAWSDB_URL) {
   connection = mysql2.createPool(process.env.JAWSDB_URL);
 } else {
+  // eslint-disable-next-line no-unused-vars
   connection = mysql2.createPool({
     host: "us-cdbr-east-03.cleardb.com",
     user: "b019518f162a28",
