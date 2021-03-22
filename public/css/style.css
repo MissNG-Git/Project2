@@ -17,14 +17,22 @@ a {
   color: #fff;
 }
 
-/* .wrapper {
-  display: flex;
-  width: 100%;
-  align-items: stretch;
-} */
-
-#indexContent {
+.user-img,
+#cartId,
+.orderBtn {
   display: block;
+  margin: 0px auto 20px auto;
+}
+
+#indexContent,
+img {
+  display: block;
+  text-align: center;
+}
+
+.sidebar-header,
+#loginUser,
+.orderBtn {
   text-align: center;
 }
 
@@ -57,8 +65,9 @@ a {
 }
 
 #sidebar .sidebar-header,
-#sidebar .customer-sidebar {
-  padding: 20px;
+#sidebar .business-sidebar,
+.customer-sidebar {
+  padding: 20px 5px 20px 5px;
 }
 
 #sidebar .sidebar-header {
@@ -109,6 +118,20 @@ div label {
 
 .container-fluid {
   padding-top: 10px;
+}
+
+#cartId div {
+  padding: 5px;
+}
+
+.orderBtn {
+  border-radius: 6px;
+  background-color: lightsteelblue;
+}
+
+.orderBtn:hover {
+  color: #7386d5;
+  background: #fff;
 }
 
 /* Float four columns side by side */
