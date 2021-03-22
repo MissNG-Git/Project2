@@ -46,9 +46,12 @@ On the other hand...
 
 The following images show the web application's appearance & functionality:
 
-![Business - Sales Dashboard](./public/assets/img/bApp_Sales.png)
-![Business - Inventory](./public/assets/img/bApp_Sales.png)
-![Customer - Storefront](./public/assets/img/bApp_Sales.png)
+<p float="left">
+    <img src="/public/assets/img/bApp_Sales.png" alt="Business - Sales Dashboard" width="200"/>
+    <img src="/public/assets/img/bApp_Inv.png" alt="Business - Inventory" width="200"/>
+    <img src="/public/assets/img/cApp.png" alt="Customer - Storefront" width="200"/>
+    <img src="/public/assets/img/appRes.png" alt="Mobile Responsive" width="200"/>
+</p>
 
 ### ≫ ──── ≪•◦ CODE FUNCTIONALITY ◦•≫ ──── ≪
 
