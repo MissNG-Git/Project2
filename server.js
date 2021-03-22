@@ -17,10 +17,10 @@ if (process.env.JAWSDB_URL) {
   connection = mysql2.createPool(process.env.JAWSDB_URL);
 } else {
   connection = mysql2.createPool({
-    host: "lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    user: "vbjyt7f8z3iz6ow5",
-    password: "eyxpxmnb8h7h4zjq",
-    database: "mj1dh6dhrbjbmsyb"
+    host: "us-cdbr-east-03.cleardb.com",
+    user: "b019518f162a28",
+    password: "qdcee841",
+    database: "heroku_399bs8cbs6e9s9f"
   });
 }
 
