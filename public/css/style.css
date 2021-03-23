@@ -1,0 +1,219 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a {
+  color: #fff;
+}
+
+.user-img,
+#cartId,
+.orderBtn {
+  display: block;
+  margin: 0px auto 20px auto;
+}
+
+#indexContent,
+img {
+  display: block;
+  text-align: center;
+}
+
+.sidebar-header,
+#loginUser,
+.orderBtn {
+  text-align: center;
+}
+
+#login-form,
+#create-form {
+  display: inline-block;
+  text-align: left;
+}
+
+#appContent {
+  margin-left: 250px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.appHeading {
+  margin: 25px 0 15px 20px;
+}
+
+#sidebar {
+  color: #fff;
+  transition: all 0.3s;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background: #7386d5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#sidebar .sidebar-header,
+#sidebar .business-sidebar,
+.customer-sidebar {
+  padding: 20px 5px 20px 5px;
+}
+
+#sidebar .sidebar-header {
+  background: #6d7fcc;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+
+  text-decoration: none;
+}
+#sidebar ul li a:hover {
+  color: #7386d5;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #6d7fcc;
+}
+
+#email-address1,
+#passwordInput1,
+div label {
+  margin-top: 20px;
+}
+
+#businessSelect1 {
+  margin-bottom: 50px;
+}
+
+#createAcctBtn {
+  margin-left: 25px;
+}
+
+.container-fluid {
+  padding-top: 10px;
+}
+
+#cartId div {
+  padding: 5px;
+}
+
+.orderBtn {
+  border-radius: 6px;
+  background-color: lightsteelblue;
+}
+
+.orderBtn:hover {
+  color: #7386d5;
+  background: #fff;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sales-chart {
+  padding-top: 15px;
+}
+
+#sales-table {
+  padding: 50px 15px 0 15px;
+}
+
+.add-photo {
+  margin: 25px 0px 25px 0px;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 15px 25px 25px 15px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  #sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  #sidebar ul li a {
+    float: left;
+  }
+
+  main#appContent {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .user-img {
+    display: none;
+  }
+
+  #sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 0px;
+  }
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  #sidebar ul li a {
+    text-align: center;
+    float: none;
+  }
+}
