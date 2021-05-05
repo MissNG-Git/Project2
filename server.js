@@ -5,11 +5,13 @@ const htmlRouter = require("./routes/html-routes.js");
 const apiRouter = require("./routes/api-routes.js");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
+const compression = require("compression");
 
 // Sets up the Express App
 const app = express();
 const authTokens = {};
 const PORT = process.env.PORT || 8080;
+app.use(compression());
 
 let connection;
 
